@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Pedro's message board</h1>
+  <Prompt />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Prompt from "./components/Prompt.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Prompt,
+  },
+};
 </script>
 
 <style>
